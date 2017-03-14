@@ -45,18 +45,18 @@
 /**
  * 视图左边的坐标
  */
-@property(nonatomic /* override */) CGFloat viewLeft;
+@property(nonatomic, readonly) CGFloat viewLeft;
 /**
  * 视图右边的坐标
  */
-@property(nonatomic /* override */) CGFloat viewRight;
+@property(nonatomic, readonly) CGFloat viewRight;
 /**
  * 视图上边的坐标
  */
-@property(nonatomic /* override */) CGFloat viewTop;
+@property(nonatomic, readonly) CGFloat viewTop;
 /**
  * 视图底边的坐标
  */
-@property(nonatomic /* override */) CGFloat viewBottom;
+@property(nonatomic, readonly) CGFloat viewBottom;
 
 @end
